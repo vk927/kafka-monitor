@@ -21,6 +21,4 @@ RUN git clone https://github.com/linkedin/kafka-monitor.git && \
 
 EXPOSE 8000 8778 22 2181 9092
 
-ENTRYPOINT [ "/kafka-monitor/bin/end-to-end-test.sh" ]
 
-CMD ["--topic","test","--broker-list","localhost:9092","--zookeeper","localhost:2181"]
