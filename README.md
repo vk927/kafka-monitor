@@ -2,7 +2,7 @@ Linkedin Kafka Monitor tool for end-end metrics
 
 Base Image : centos
 
-  docker pull vk927/kafka-monitor
+   docker pull vk927/kafka-monitor
 
 Run the fallowing docker command 
 
